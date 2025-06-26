@@ -1,6 +1,6 @@
 # Классификация пар предложений: Contradictory, My Dear Watson
 
-Этот репозиторий содержит решение для соревнования Kaggle [Contradictory, My Dear Watson](https://www.kaggle.com/competitions/contradictory-my-dear-watson), целью которого является определения логической связи между парами предложений. Решение использует предобученную модель XLM-RoBERTa для создания эмбеддингов и дальнейшего fine-tuning.
+Этот репозиторий содержит решение для соревнования Kaggle [Contradictory, My Dear Watson](https://www.kaggle.com/competitions/contradictory-my-dear-watson), целью которого является определение логической связи между парами предложений. Решение использует предобученную модель XLM-RoBERTa для создания эмбеддингов и дальнейшего fine-tuning.
 
 ## Описание проекта
 
@@ -42,7 +42,7 @@
   - Столбцы: `id`, `premise`, `hypothesis`, `language`.
   - Размер: 5,195 записей.
 
-- **`train_data.pt`, test_data.pt`**:
+- **`train_data.pt`, `test_data.pt`**:
   - Токенизированные данные (PyTorch тензоры) с `input_ids`, `attention_mask` и (для `train_data.pt`) `labels`.
 
 - **`submission_new.csv`**:
