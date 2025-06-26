@@ -1,6 +1,6 @@
 # Классификация пар предложений: Contradictory, My Dear Watson
 
-Этот репозиторий содержит решение для соревнования Kaggle [Contradictory, My Dear Watson](https://www.kaggle.com/competitions/contradictory-my-dear-watson), целью которого является классификация пар предложений (премиса и гипотеза) на три категории: entailment (0), neutral (1) или contradiction (2). Решение использует предобученную модель XLM-RoBERTa для создания эмбеддингов и дальнейшего fine-tuning.
+Этот репозиторий содержит решение для соревнования Kaggle [Contradictory, My Dear Watson](https://www.kaggle.com/competitions/contradictory-my-dear-watson), целью которого является классификация пар предложений (premise и hypothesis) на три категории: entailment (0), neutral (1) или contradiction (2). Решение использует предобученную модель XLM-RoBERTa для создания эмбеддингов и дальнейшего fine-tuning.
 
 ## Описание проекта
 
